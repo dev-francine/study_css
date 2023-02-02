@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position 실습</title>
+    <style>
+      div.img {
+        background-image: url('http://koreaitacademy.com/renewal2021/img/tch/teacher007.png');
+        background-size: 100%;
+        background-position: center;
+        width: 220px;
+        height: 315px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      img.ciga {
+        position: absolute;
+        height: 20%;
+        width: auto;
+        bottom: 123px;
+        left: 25px;
+      }
+
+      img.sungl {
+        position:relative;
+        width:50%;
+        top: 63px;
+        left:30px
+      }
+
+      img.parrot{
+        position:relative;
+        height:38%;
+        top: 43px;
+        left: 115px;
+        z-index: 5;
+      }
+
+      img.cowboy{
+        position:relative;
+        height:30%;
+        bottom: 210px;
+        left: 15px;
+      }
+
+      img.icecream{
+        position:relative;
+        height:20%;
+        bottom: 21px;
+        right: 100px;
+      }
+
+      img.wingRight{
+        position:relative;
+        height:50%;
+        bottom: 221px;
+        left: 179px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <!-- <div class="img">
+        <div class="ciga"></div>
+        <div class="sungl"></div>
+    </div> -->
+
+    <div class="img">
+      <img src="img/cigarette.png" alt="" class="ciga" />
+      <img src="img/sunglasses.png" alt="" class="sungl" />
+      <img src="img/parrot.png" alt="" class="parrot" />
+      <img src="img/cowboy.png" alt="" class="cowboy" />
+      <img src="img/iceCream.png" alt="" class="icecream" />
+      <img src="img/wingRight.png" alt="" class="wingRight" />
+    </div>
+  </body>
+</html>
